@@ -100,7 +100,7 @@ repositories:
     type: git
     url: https://github.com/tier4/tamagawa_imu_driver.git
     version: ros2
-  sensor_component/external/bluespace_ai_xsens_ros_mti_driver
+  sensor_component/external/bluespace_ai_xsens_ros_mti_driver:
     type: git
     url: https://github.com/iASL-Gifu/bluespace_ai_xsens_ros_mti_driver.git
     version: ros2_0_galactic
