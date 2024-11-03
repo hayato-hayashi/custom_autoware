@@ -89,8 +89,8 @@ repositories:
   # launcher
   launcher/autoware_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: main
+    url: https://github.com/peregrine-884/custom_autoware_launch.git
+    version: beamng
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
