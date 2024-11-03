@@ -96,62 +96,62 @@ repositories:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
     version: main
-  sensor_component/external/tamagawa_imu_driver:
-    type: git
-    url: https://github.com/tier4/tamagawa_imu_driver.git
-    version: ros2
-  sensor_component/external/bluespace_ai_xsens_ros_mti_driver:
-    type: git
-    url: https://github.com/iASL-Gifu/bluespace_ai_xsens_ros_mti_driver.git
-    version: ros2_0_galactic
-  sensor_component/external/nebula:
-    type: git
-    url: https://github.com/tier4/nebula.git
-    version: main
+  # sensor_component/external/tamagawa_imu_driver:
+  #   type: git
+  #   url: https://github.com/tier4/tamagawa_imu_driver.git
+  #   version: ros2
+  # sensor_component/external/bluespace_ai_xsens_ros_mti_driver:
+  #   type: git
+  #   url: https://github.com/iASL-Gifu/bluespace_ai_xsens_ros_mti_driver.git
+  #   version: ros2_0_galactic
+  # sensor_component/external/nebula:
+  #   type: git
+  #   url: https://github.com/tier4/nebula.git
+  #   version: main
   # Fork of transport_drivers that enables reduction of copy operations
-  sensor_component/transport_drivers:
-    type: git
-    url: https://github.com/autowarefoundation/transport_drivers
-    version: mutable-buffer-in-udp-callback
+  # sensor_component/transport_drivers:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/transport_drivers
+  #  version: mutable-buffer-in-udp-callback
   # Continental compatible version of ROS 2 socket CAN
-  sensor_component/ros2_socketcan:
-    type: git
-    url: https://github.com/autowarefoundation/ros2_socketcan
-    version: feat/continental_fd
+  # sensor_component/ros2_socketcan:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/ros2_socketcan
+  #   version: feat/continental_fd
   # sensor_kit
-  sensor_kit/sample_sensor_kit_launch:
-    type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: main
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
-    type: git
-    url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
-    version: main
-  sensor_kit/awsim_labs_sensor_kit_launch:
-    type: git
-    url: https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
-    version: main
-  sensor_kit/single_lidar_sensor_kit_launch:
-    type: git
-    url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
-    version: main
+  # sensor_kit/sample_sensor_kit_launch:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
+  #   version: main
+  # sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
+  #   type: git
+  #   url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
+  #   version: main
+  # sensor_kit/awsim_labs_sensor_kit_launch:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/awsim_labs_sensor_kit_launch.git
+  #   version: main
+  # sensor_kit/single_lidar_sensor_kit_launch:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
+  #   version: main
   sensor_kit/beamng_sensor_kit_launch:
       type: git
       url: https://github.com/hayato-hayashi/custom_sensor_kit_launch.git
       version: beamng
   # vehicle
-  vehicle/sample_vehicle_launch:
-    type: git
-    url: https://github.com/autowarefoundation/sample_vehicle_launch.git
-    version: main
+  # vehicle/sample_vehicle_launch:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+  #   version: main
   vehicle/beamng_vehicle_launch:
     type: git
     url: https://github.com/hayato-hayashi/custom_vehicle_launch.git
     version: beamng
-  vehicle/external/pacmod_interface:
-    type: git
-    url: https://github.com/tier4/pacmod_interface.git
-    version: main
+  # vehicle/external/pacmod_interface:
+  #   type: git
+  #   url: https://github.com/tier4/pacmod_interface.git
+  #   version: main
   # param
   param/autoware_individual_params:
     type: git
