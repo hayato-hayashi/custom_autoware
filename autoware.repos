@@ -151,7 +151,11 @@ repositories:
   vehicle/whill_vehicle_launch/ros2_whill:
     type: git
     url: https://github.com/whill-labs/ros2_whill.git
-    version: humble 
+    version: humble
+  vehicle/whill_vehicle_launch/ros2_whill:
+    type: git
+    url: https://github.com/whill-labs/ros2_whill_interfaces.git
+    version: humble
   #vehicle/external/pacmod_interface:
   #  type: git
   #  url: https://github.com/tier4/pacmod_interface.git
